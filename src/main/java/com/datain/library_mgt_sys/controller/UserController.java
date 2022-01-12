@@ -1,6 +1,7 @@
-package com.datain.library_mgt_sys.user;
+package com.datain.library_mgt_sys.controller;
 
-
+import com.datain.library_mgt_sys.model.User;
+import com.datain.library_mgt_sys.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
