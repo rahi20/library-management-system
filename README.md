@@ -1,2 +1,2 @@
-# libri - A Library Management System
+# libri - A Book Rental System
 
