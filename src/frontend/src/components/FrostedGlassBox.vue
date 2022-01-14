@@ -25,9 +25,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
   .box{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left : 50%;
+    transform: translateX(-50%);
     width : 400px;
     height : 300px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);

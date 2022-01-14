@@ -1,6 +1,8 @@
 <template>
-  <FrostedGlassBox />
-
+  <div class="tocenter">
+    <img class="logo" :src="require(`@/assets/img/logo.png`)" alt="logo-libri" />
+    <FrostedGlassBox />
+  </div>
 </template>
 
 <script>
@@ -28,12 +30,14 @@ body, html {
 }
 
 body {
-  background-attachment: fixed;
   background: rgb(22,66,91);
   background: radial-gradient(circle, rgba(22,66,91,0.9) 31%, rgba(198,136,128,0.94) 100%);
 }
+
 #app {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width : 100%;
   height : 100%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -42,4 +46,15 @@ body {
   text-align: center;
   color: #2c3e50;
 }
+
+.tocenter {
+  width: 600px;
+  height : 600px;
+}
+
+.logo{
+  width : 250px;
+  height: 180px;
+}
+
 </style>
