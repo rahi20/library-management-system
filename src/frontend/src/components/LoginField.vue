@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 
 .login-field {
   display: flex;
@@ -50,7 +50,6 @@ export default {
   background: none;
   border: none;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .login-field input:focus{

@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
   .box{
     position: absolute;
     top: 50%;
@@ -62,11 +62,13 @@ export default {
   .container input{
     border: none;
     border-radius: 7px;
-    background: #BCAC9B;
+    background: #C68880;/*#BCAC9B;*/
+    color: #E6D7C7;
     margin-top: 15px;
     padding: 7px 20px 7px 20px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
   }
 
 </style>
